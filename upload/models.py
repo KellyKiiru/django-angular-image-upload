@@ -6,3 +6,6 @@ class Image(models.Model):
 
     def __str__(self):
         return self.name
+    
+class Specialist(models.Model):
+    name = models.CharField(max_length=255)
