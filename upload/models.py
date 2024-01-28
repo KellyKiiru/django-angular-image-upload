@@ -9,3 +9,4 @@ class Image(models.Model):
     
 class Specialist(models.Model):
     name = models.CharField(max_length=255)
+    speciality_country = models.CharField(max_length=255)
